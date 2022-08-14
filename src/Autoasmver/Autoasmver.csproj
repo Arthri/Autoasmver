@@ -7,7 +7,6 @@
     <Configurations>Release</Configurations>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <NoBuild>true</NoBuild>
-    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
@@ -25,6 +24,7 @@
 
   <ItemGroup>
     <None Include="Assets/build/**/*" Pack="true" PackagePath="build/;buildMultiTargetting/" />
+    <None Include="Assets/lib/**/*" Pack="true" PackagePath="lib/" />
     <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
 
