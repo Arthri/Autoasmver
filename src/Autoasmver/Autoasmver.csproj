@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Authors>Arthri</Authors>
+    <Configuration>Release</Configuration>
+    <Configurations>Release</Configurations>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <NoBuild>true</NoBuild>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Copyright>Copyright © 2022 Arthri</Copyright>
+    <Description>Automatically sets the assembly version to the last major version.</Description>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <PackageLicenseExpression>MIT OR MIT-0 OR Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Arthri/Autoasmver</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Arthri/Autoasmver.git</RepositoryUrl>
+    <Title>Auto Assembly Version</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Assets/build/**/*" Pack="true" PackagePath="build/;buildMultiTargetting/" />
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
