@@ -1,3 +1,11 @@
+---
+
+# DEPRECATED
+
+Moved to [Arthri/Belp](https://github.com/Arthri/Belp)
+
+---
+
 # Autoasmver
 [![Project License](https://img.shields.io/badge/license-MIT%20OR%20MIT--0%20OR%20Apache--2.0-green?style=flat-square "License")](https://github.com/Arthri/Autoasmver#License) [![NuGet](https://img.shields.io/nuget/v/Autoasmver?style=flat-square "Latest NuGet Release")](https://www.nuget.org/packages/Autoasmver/latest)
 
